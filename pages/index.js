@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Homepage from '../components/Homepage';
+import States from '../components/States';
 export default function Home() {
   // We can write any valid JS beforehand <return>
   // const changable = document.getElementById('aP');
@@ -9,7 +10,7 @@ export default function Home() {
   let anObj = { name: 'alvaro', age: 18 };
   const link = 'https://www.youtube.com';
   return (
-    <div className="flex flex-col min-h-screen py-2 mx-44">
+    <div className="min-h-screen py-2 mx-44">
       <Head>
         <title>Simple Blog App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -18,7 +19,8 @@ export default function Home() {
 
       <Navbar />
 
-      <Homepage />
+      {/* <Homepage /> */}
+      <States></States>
     </div>
   );
 }
