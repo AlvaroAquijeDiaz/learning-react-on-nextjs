@@ -1,0 +1,19 @@
+{
+  "blogs": [
+    { "title": "A title", "body": "lorem ipsum dolor ...", "author": "Mario", "id": "1" },
+    { "title": "A title", "body": "lorem ipsum dolor ...", "author": "Luigi", "id": "2" },
+    {
+      "title": "A title",
+      "body": "lorem ipsum dolor ...",
+      "author": "Gonzalo",
+      "id": "3"
+    },
+    {
+      "title": "A title",
+      "body": "lorem ipsum dolor ...",
+      "author": "Aquije",
+      "id": "4"
+    },
+    { "title": "A title", "body": "lorem ipsum dolor ...", "author": "Alvaro", "id": "5" }
+  ]
+}

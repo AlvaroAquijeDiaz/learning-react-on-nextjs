@@ -3,9 +3,6 @@ import Navbar from '../components/Navbar';
 import Homepage from '../components/Homepage';
 import States from '../components/States';
 export default function Home() {
-  // We can write any valid JS beforehand <return>
-  // const changable = document.getElementById('aP');
-
   // Objects cannot be used as variables inside < { } >
   let anObj = { name: 'alvaro', age: 18 };
   const link = 'https://www.youtube.com';

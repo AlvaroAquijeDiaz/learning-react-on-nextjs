@@ -1,5 +1,5 @@
 // Destructuring props
-const BlogList = ({ blogs, title, handleDelete }) => {
+const BlogList = ({ blogs, title }) => {
   // const blogs = props.blogs;
   return (
     <div>
@@ -17,13 +17,6 @@ const BlogList = ({ blogs, title, handleDelete }) => {
               <span className="font-semibold text-red-600 text-lg">{blogs.title}</span>
             </h3>
             <p>{blogs.body}</p>
-            <button
-              className="rounded-lg border mt-2 bg-red-400 text-white hover:bg-white hover:text-red-700 transition-colors"
-              onClick={() => {
-                handleDelete(blogs.id);
-              }}>
-              Delete me
-            </button>
           </div>
         ))}
       </div>
