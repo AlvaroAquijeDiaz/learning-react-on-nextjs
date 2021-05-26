@@ -3,9 +3,9 @@ const Navbar = () => {
   const placeholder = { 1: 'Go home', 2: 'About' };
   return (
     <div className="py-5">
-      <nav className="flex flex-row gap-10 items-center justify-center flex-auto">
+      <nav className="">
         <Link href="/">
-          <a className="navButton">
+          <a className="max-w-[50%] text-sm font-medium ">
             <p>Go Home</p>
           </a>
         </Link>
@@ -16,13 +16,15 @@ const Navbar = () => {
           </a>
         </Link>
         <Link href="/create">
-          <a className="navButton bg-red-600 text-white hover:text-black hover:bg-white">
+          <a className="">
             <p>Add New</p>
           </a>
         </Link>
 
-        <div className="ml-auto mr-5">
-          <h1 className="text-2xl font-bold text-red-600">Welcome to the BlogApp</h1>
+        <div className="ml-auto mr-5 sm:visible">
+          <h1 className="text-3xl font-bold text-red-600 text-right">
+            Welcome to the BlogApp
+          </h1>
         </div>
       </nav>
     </div>

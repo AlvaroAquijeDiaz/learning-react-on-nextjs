@@ -4,6 +4,5 @@
 
 @layer components {
   .navButton {
-    @apply text-sm font-medium px-3 py-2 border-2 rounded-lg shadow-lg hover:text-red-700 hover:border-[#E94F37] transition-all;
   }
 }

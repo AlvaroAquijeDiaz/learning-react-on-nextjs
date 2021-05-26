@@ -7,7 +7,7 @@ export default function Home() {
   let anObj = { name: 'alvaro', age: 18 };
   const link = 'https://www.youtube.com';
   return (
-    <div className="min-h-screen py-2 mx-44">
+    <div className="min-h-screen">
       <Head>
         <title>Simple Blog App</title>
         <link rel="icon" href="/favicon.ico" />
