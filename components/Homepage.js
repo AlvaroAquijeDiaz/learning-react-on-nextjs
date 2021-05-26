@@ -1,4 +1,8 @@
-import States from './States';
+//************ THIS COMPONENT HAS BEEN DEPRECATED ***********
+
+// For learning only
+
+import States from './BlogOutput';
 const Homepage = () => {
   const useClick = () => {
     console.log('This is a click function');

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Homepage from '../components/Homepage';
-import States from '../components/States';
+import States from '../components/BlogOutput';
 export default function Home() {
   // Objects cannot be used as variables inside < { } >
   let anObj = { name: 'alvaro', age: 18 };
@@ -13,10 +13,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content="blog simple nextjs reactjs" />
       </Head>
-
-      <Navbar />
-
-      {/* <Homepage /> */}
       <States></States>
     </div>
   );

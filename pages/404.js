@@ -1,11 +1,14 @@
 import Link from 'next/link';
 const NotFound = () => {
   return (
-    <div className="flex flex-col">
-      <h1 className="font-bold text-2xl">Oops ..</h1>
+    <div className="flex flex-col text-center">
+      <h1 className="font-bold text-2xl tracking-wide">Oops ...</h1>
       <h3>The page cannot be found</h3>
       <p>
-        Go back to <span className="font-semibold text-purple-700"></span>
+        Go back to{' '}
+        <Link href="/">
+          <a className="text-lg font-bold">Home</a>
+        </Link>
       </p>
     </div>
   );

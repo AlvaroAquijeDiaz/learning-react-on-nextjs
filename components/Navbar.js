@@ -9,14 +9,8 @@ const Navbar = () => {
             <p>Go Home</p>
           </a>
         </Link>
-
-        <Link href="/">
-          <a className="navButton">
-            <p>Blogs</p>
-          </a>
-        </Link>
-        <Link href="/create">
-          <a className="">
+        <Link href="/addBlog">
+          <a className="text-sm">
             <p>Add New</p>
           </a>
         </Link>
