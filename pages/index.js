@@ -7,7 +7,7 @@ export default function Home() {
   let anObj = { name: 'alvaro', age: 18 };
   const link = 'https://www.youtube.com';
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-tr from-current bg-[#011120] to-purple-700">
       <Head>
         <title>Simple Blog App</title>
         <link rel="icon" href="/favicon.ico" />
